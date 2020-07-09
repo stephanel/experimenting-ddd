@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Account.cs" />
+    <Compile Remove="Bus.cs" />
+    <Compile Remove="DomainEvent.cs" />
+    <Compile Remove="DomainEventRegistrationRemover.cs" />
+    <Compile Remove="DomainEvents\CartIsFullEventArgs.cs" />
+    <Compile Remove="DomainEvents\GameReportedLostEventArgs.cs" />
+    <Compile Remove="DomainEvents\IEventArgs.cs" />
+    <Compile Remove="DomainEvents\MaxNumberOfSameGamePerCartReachedEventArgs.cs" />
+    <Compile Remove="IBus.cs" />
+    <Compile Remove="ICart.cs" />
+    <Compile Remove="IEntity.cs" />
+    <Compile Remove="IGame.cs" />
+    <Compile Remove="ISession.cs" />
+    <Compile Remove="ITransaction.cs" />
+    <Compile Remove="SessionFactory.cs" />
+    <Compile Remove="ValidationResult.cs" />
+  </ItemGroup>
+
+</Project>
